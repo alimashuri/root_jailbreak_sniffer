@@ -31,7 +31,7 @@ static char *blacklistedMountPaths[] = {
 };
 
 
-/*static const char *suPaths[] = {
+static const char *suPaths[] = {
         "/sbin/magisk",
         "/sbin/.magisk",
         "/sbin/magisk32",
@@ -71,9 +71,9 @@ static char *blacklistedMountPaths[] = {
         "/sbin/supolicy",
         "/data/local/tmp/frida-gadget",
 
-};*/
+};
 
-static const char *suPaths[] = {
+/*static const char *suPaths[] = {
         "/data/local/su",
         "/data/local/bin/su",
         "/data/local/xbin/su",
@@ -88,7 +88,7 @@ static const char *suPaths[] = {
         "/cache/su",
         "/data/su",
         "/dev/su"
-};
+};*/
 
 
 __attribute__((always_inline))
